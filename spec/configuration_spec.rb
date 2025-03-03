@@ -12,14 +12,14 @@ OpenAPI Generator version: 4.3.0-SNAPSHOT
 
 require 'spec_helper'
 
-describe PlacetelApi::Configuration do
-  let(:config) { PlacetelApi::Configuration.default }
+describe PlacetelAPI::Configuration do
+  let(:config) { PlacetelAPI::Configuration.default }
 
   before(:each) do
     # uncomment below to setup host and base_path
     # require 'URI'
     # uri = URI.parse("https://api.placetel.de/v2")
-    # PlacetelApi.configure do |c|
+    # PlacetelAPI.configure do |c|
     #   c.host = uri.host
     #   c.base_path = uri.path
     # end
